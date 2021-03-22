@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bmbox.Application", "Bmbox.Application", "{28DDB72C-CB1B-4824-A651-CEA6F8F3B45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bmbox.Api", "Bmbox.Api", "{44D161C0-010F-4289-8C62-7AB00594747C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bmbox.Domain", "Bmbox.Domain", "{C2936BA6-7199-4B1A-8884-4D387FB232F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bmbox.Infrastructure", "Bmbox.Infrastructure", "{BECC3F3E-FB8F-42A3-AF2D-BA3710CDE8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Entity", "Bmbox.Entity\Bmbox.Entity.csproj", "{33FA5481-B146-4C7B-B0E8-CD2EED47E102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Service", "Bmbox.Service\Bmbox.Service.csproj", "{BA4F84BE-E06C-4EE0-A8B8-9033612624E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Repository", "Bmbox.Repository\Bmbox.Repository.csproj", "{D73E85B5-E261-43C2-833E-3E4496B12EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Repository.Interface", "Bmbox.Repository.Interface\Bmbox.Repository.Interface.csproj", "{8806CCE6-7BC2-4027-820E-8DA3CC90575B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Service.Interface", "Bmbox.Service.Interface\Bmbox.Service.Interface.csproj", "{9AA6D9CC-3748-40C3-BD15-960BAAC7125B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bmbox.Common", "Bmbox.Common", "{16F7844A-63A7-4E6D-ACC0-9676445C207F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Model", "Bmbox.Model\Bmbox.Model.csproj", "{5E396585-3CA7-472A-AF85-66A95A5BC505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Log", "Bmbox.Log\Bmbox.Log.csproj", "{560FA80C-6A6B-430E-B939-7C9CA0F5CC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmbox.Library", "Bmbox.Library\Bmbox.Library.csproj", "{19D375FC-33E0-4E22-9224-751FAC2A0777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FA5481-B146-4C7B-B0E8-CD2EED47E102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FA5481-B146-4C7B-B0E8-CD2EED47E102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FA5481-B146-4C7B-B0E8-CD2EED47E102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FA5481-B146-4C7B-B0E8-CD2EED47E102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4F84BE-E06C-4EE0-A8B8-9033612624E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4F84BE-E06C-4EE0-A8B8-9033612624E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4F84BE-E06C-4EE0-A8B8-9033612624E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4F84BE-E06C-4EE0-A8B8-9033612624E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73E85B5-E261-43C2-833E-3E4496B12EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73E85B5-E261-43C2-833E-3E4496B12EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73E85B5-E261-43C2-833E-3E4496B12EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73E85B5-E261-43C2-833E-3E4496B12EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8806CCE6-7BC2-4027-820E-8DA3CC90575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806CCE6-7BC2-4027-820E-8DA3CC90575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8806CCE6-7BC2-4027-820E-8DA3CC90575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8806CCE6-7BC2-4027-820E-8DA3CC90575B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA6D9CC-3748-40C3-BD15-960BAAC7125B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA6D9CC-3748-40C3-BD15-960BAAC7125B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA6D9CC-3748-40C3-BD15-960BAAC7125B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA6D9CC-3748-40C3-BD15-960BAAC7125B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E396585-3CA7-472A-AF85-66A95A5BC505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E396585-3CA7-472A-AF85-66A95A5BC505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E396585-3CA7-472A-AF85-66A95A5BC505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E396585-3CA7-472A-AF85-66A95A5BC505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560FA80C-6A6B-430E-B939-7C9CA0F5CC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560FA80C-6A6B-430E-B939-7C9CA0F5CC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560FA80C-6A6B-430E-B939-7C9CA0F5CC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560FA80C-6A6B-430E-B939-7C9CA0F5CC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D375FC-33E0-4E22-9224-751FAC2A0777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D375FC-33E0-4E22-9224-751FAC2A0777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D375FC-33E0-4E22-9224-751FAC2A0777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D375FC-33E0-4E22-9224-751FAC2A0777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33FA5481-B146-4C7B-B0E8-CD2EED47E102} = {C2936BA6-7199-4B1A-8884-4D387FB232F1}
+		{BA4F84BE-E06C-4EE0-A8B8-9033612624E7} = {28DDB72C-CB1B-4824-A651-CEA6F8F3B45B}
+		{D73E85B5-E261-43C2-833E-3E4496B12EF7} = {BECC3F3E-FB8F-42A3-AF2D-BA3710CDE8D1}
+		{8806CCE6-7BC2-4027-820E-8DA3CC90575B} = {BECC3F3E-FB8F-42A3-AF2D-BA3710CDE8D1}
+		{9AA6D9CC-3748-40C3-BD15-960BAAC7125B} = {28DDB72C-CB1B-4824-A651-CEA6F8F3B45B}
+		{5E396585-3CA7-472A-AF85-66A95A5BC505} = {16F7844A-63A7-4E6D-ACC0-9676445C207F}
+		{560FA80C-6A6B-430E-B939-7C9CA0F5CC00} = {16F7844A-63A7-4E6D-ACC0-9676445C207F}
+		{19D375FC-33E0-4E22-9224-751FAC2A0777} = {16F7844A-63A7-4E6D-ACC0-9676445C207F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BCC4CE2-C42A-4355-88FF-14B0FF24DABE}
+	EndGlobalSection
+EndGlobal
